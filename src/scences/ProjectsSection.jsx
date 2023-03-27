@@ -40,7 +40,7 @@ const ProjectsSection = () => {
             viewport={{ once: true, amount: 0.5 }}
             src={recipe}
             alt="recipe app"
-            className="w-[400px]  rounded opacity-70 object-cover"
+            className="w-[400px] min-h-[250px] rounded opacity-70 object-cover"
           />
           <motion.figcaption
             className="flex flex-col items-center lg:items-start"
@@ -107,7 +107,7 @@ const ProjectsSection = () => {
             viewport={{ once: true, amount: 0.5 }}
             src={movie}
             alt="movie app"
-            className="w-[500px]  rounded lg:order-2 object-cover"
+            className="w-[500px] min-h-[250px] rounded lg:order-2 object-cover"
           />
           <motion.figcaption
             className="flex flex-col items-center lg:items-start"
@@ -173,7 +173,7 @@ const ProjectsSection = () => {
             viewport={{ once: true, amount: 0.5 }}
             src={youtube}
             alt="video sharing app"
-            className="w-[500px] rounded object-fill"
+            className="w-[500px] min-h-[250px] rounded object-fill"
           />
           <motion.figcaption
             className="flex flex-col items-center lg:items-start"
@@ -186,10 +186,12 @@ const ProjectsSection = () => {
               Video Sharing app
             </h3>
             <p className="text-[12px] sm:text-[15px] text-center lg:text-start text">
-              Youtube clone using React js and Rapid API. A beautifull youtube
-              clone where user can search for a video or channel and watch it
-              with react player (youtube player). This app is the best example
-              of API integration.
+              The project is a YouTube clone built using ReactJS and RapidAPI,
+              aimed at providing a similar user interface and functionality to
+              the popular video-sharing platform. The application allows users
+              to search and watch videos. The application's user interface is
+              modern and intuitive, making it easy for users to navigate and use
+              the application.
             </p>
             <p className="mt-5 text-slate-200 uppercase mb-2">
               Technoligies used are:
@@ -236,7 +238,7 @@ const ProjectsSection = () => {
             viewport={{ once: true, amount: 0.5 }}
             src={natours}
             alt="recipe app"
-            className="w-[500px] rounded lg:order-2 object-contain opacity-80"
+            className="w-[500px] min-h-[250px] rounded lg:order-2 object-contain opacity-80"
           />
           <motion.figcaption
             className="flex flex-col items-center lg:items-start"
@@ -249,8 +251,12 @@ const ProjectsSection = () => {
               Natours Website
             </h3>
             <p className="text-[12px] sm:text-[15px] text-center lg:text-start text">
-              An eye catching UI UX website for Natours. It is the best UI UX
-              webiste build with HTML, CSS and SASS (css preprocessor)
+              The project is a UI/UX website for a fictional travel company
+              called "Natours". The website is built using HTML and Sass, aimed
+              at providing a beautiful user interface and user experience to
+              attract potential customers. The website provides information
+              about different tours offered by the company, including their
+              destinations, prices, and itineraries
             </p>
             <p className="mt-5 text-slate-200 uppercase mb-2">
               Technoligies used are:
